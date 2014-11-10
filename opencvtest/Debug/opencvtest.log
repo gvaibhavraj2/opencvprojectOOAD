@@ -1,0 +1,28 @@
+﻿Build started 11/7/2014 11:46:07 AM.
+     1>Project "C:\Users\prateek goal\Documents\Visual Studio 2013\Projects\opencvtest\opencvtest\opencvtest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\opencvtest.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\..\Downloads\gesture.cpp
+         gesture.cpp
+     1>c:\users\prateek goal\downloads\gesture.cpp(9): warning C4005: 'WINVER' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\sdkddkver.h(215) : see previous definition of 'WINVER'
+     1>c:\users\prateek goal\downloads\gesture.cpp(196): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\prateek goal\downloads\gesture.cpp(197): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\prateek goal\downloads\gesture.cpp(198): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\prateek goal\downloads\gesture.cpp(199): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\prateek goal\downloads\gesture.cpp(200): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\prateek goal\downloads\gesture.cpp(201): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\prateek goal\downloads\gesture.cpp(202): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\prateek goal\downloads\gesture.cpp(203): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\prateek goal\downloads\gesture.cpp(204): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\prateek goal\downloads\gesture.cpp(232): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\prateek goal\downloads\gesture.cpp(234): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\prateek goal\downloads\gesture.cpp(235): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\prateek goal\Documents\Visual Studio 2013\Projects\opencvtest\Debug\opencvtest.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\opencv\build\x86\vc12\lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_imgproc249d.lib opencv_ml249d.lib opencv_objdetect249d.lib opencv_photo249d.lib opencv_video249d.lib opencv_highgui249d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_legacy249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\prateek goal\Documents\Visual Studio 2013\Projects\opencvtest\Debug\opencvtest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\prateek goal\Documents\Visual Studio 2013\Projects\opencvtest\Debug\opencvtest.lib" /MACHINE:X86 Debug\gesture.obj
+         Debug\stdafx.obj
+         opencvtest.vcxproj -> C:\Users\prateek goal\Documents\Visual Studio 2013\Projects\opencvtest\Debug\opencvtest.exe
+     1>Done Building Project "C:\Users\prateek goal\Documents\Visual Studio 2013\Projects\opencvtest\opencvtest\opencvtest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.67
